@@ -47,3 +47,6 @@ if __name__ == "__main__":
     # Print them out:
     for result in results:
         print(movieNames[result[0]], result[1])
+
+    # To run this script on to the cluster we use,
+    # spark-submit <SCRIPT_PATH>
